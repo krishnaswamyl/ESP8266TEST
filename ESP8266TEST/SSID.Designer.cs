@@ -68,6 +68,7 @@
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.label1);
             this.Name = "SSID";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "SSID and PWD";
             this.ResumeLayout(false);
             this.PerformLayout();
