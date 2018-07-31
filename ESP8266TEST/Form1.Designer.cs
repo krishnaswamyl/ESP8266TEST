@@ -55,7 +55,6 @@
             this.richTextBoxSend = new System.Windows.Forms.RichTextBox();
             this.buttonClearSend = new System.Windows.Forms.Button();
             this.buttonSendData = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxIpaddress = new System.Windows.Forms.TextBox();
             this.buttonPing = new System.Windows.Forms.Button();
@@ -94,7 +93,7 @@
             this.groupBox8.Controls.Add(this.buttonConnect);
             this.groupBox8.Controls.Add(this.comboBox1);
             this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox8.Location = new System.Drawing.Point(499, 12);
+            this.groupBox8.Location = new System.Drawing.Point(516, 35);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(436, 166);
             this.groupBox8.TabIndex = 1;
@@ -170,9 +169,9 @@
             this.toolStripStatusLabel1,
             this.toolstripStatus,
             this.toolStripStatusLabel2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 654);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 688);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(947, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(974, 22);
             this.statusStrip1.TabIndex = 3;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -264,15 +263,15 @@
             // richTextBoxOut
             // 
             this.richTextBoxOut.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBoxOut.Location = new System.Drawing.Point(499, 184);
+            this.richTextBoxOut.Location = new System.Drawing.Point(516, 207);
             this.richTextBoxOut.Name = "richTextBoxOut";
-            this.richTextBoxOut.Size = new System.Drawing.Size(436, 400);
+            this.richTextBoxOut.Size = new System.Drawing.Size(436, 417);
             this.richTextBoxOut.TabIndex = 6;
             this.richTextBoxOut.Text = "";
             // 
             // buttonClearout
             // 
-            this.buttonClearout.Location = new System.Drawing.Point(705, 599);
+            this.buttonClearout.Location = new System.Drawing.Point(658, 639);
             this.buttonClearout.Name = "buttonClearout";
             this.buttonClearout.Size = new System.Drawing.Size(75, 23);
             this.buttonClearout.TabIndex = 7;
@@ -282,7 +281,7 @@
             // 
             // buttonExit
             // 
-            this.buttonExit.Location = new System.Drawing.Point(817, 599);
+            this.buttonExit.Location = new System.Drawing.Point(770, 639);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(75, 23);
             this.buttonExit.TabIndex = 7;
@@ -304,7 +303,7 @@
             // richTextBoxSend
             // 
             this.richTextBoxSend.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBoxSend.Location = new System.Drawing.Point(12, 167);
+            this.richTextBoxSend.Location = new System.Drawing.Point(15, 207);
             this.richTextBoxSend.Name = "richTextBoxSend";
             this.richTextBoxSend.Size = new System.Drawing.Size(382, 417);
             this.richTextBoxSend.TabIndex = 6;
@@ -312,7 +311,7 @@
             // 
             // buttonClearSend
             // 
-            this.buttonClearSend.Location = new System.Drawing.Point(47, 599);
+            this.buttonClearSend.Location = new System.Drawing.Point(50, 639);
             this.buttonClearSend.Name = "buttonClearSend";
             this.buttonClearSend.Size = new System.Drawing.Size(75, 23);
             this.buttonClearSend.TabIndex = 7;
@@ -322,22 +321,13 @@
             // 
             // buttonSendData
             // 
-            this.buttonSendData.Location = new System.Drawing.Point(187, 599);
+            this.buttonSendData.Location = new System.Drawing.Point(190, 639);
             this.buttonSendData.Name = "buttonSendData";
             this.buttonSendData.Size = new System.Drawing.Size(75, 23);
             this.buttonSendData.TabIndex = 7;
             this.buttonSendData.Text = "SEND";
             this.buttonSendData.UseVisualStyleBackColor = true;
             this.buttonSendData.Click += new System.EventHandler(this.buttonClear_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "label1";
             // 
             // label2
             // 
@@ -372,11 +362,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(947, 676);
+            this.ClientSize = new System.Drawing.Size(974, 710);
             this.Controls.Add(this.buttonPing);
             this.Controls.Add(this.textBoxIpaddress);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonSendData);
             this.Controls.Add(this.buttonClearSend);
@@ -433,7 +422,6 @@
         private System.Windows.Forms.RichTextBox richTextBoxSend;
         private System.Windows.Forms.Button buttonClearSend;
         private System.Windows.Forms.Button buttonSendData;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxIpaddress;
         private System.Windows.Forms.Button buttonPing;
