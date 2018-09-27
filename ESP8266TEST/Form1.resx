@@ -121,27 +121,55 @@
     <value>17, 17</value>
   </metadata>
   <data name="richTextBoxSend.Text" xml:space="preserve">
-    <value>Pid:Madhu456
-14/04/18 02:43:55PM
-UTI +ve
-1000000000 cell per ml
-E Coli: Gram -ve
-AMOXYCILLIN   RES
-GENTAMYCIN    +++
-AMIKACIN      RES
-CEFEPIME      +++
-OFLOXACIN     +++
-CIPROFLOXACIN RES
-CEFTRIAXONE   +++
-PIP-TAZ       RES
-CEFOTAXIME    +++
-KANAMYCIN     +++
-CEFUROXIME    RES
-TOBRAMYCIN    +++
-LEVOFLOXACIN  RES
-CEFAZOLIN     RES
-IMIPENEM      +++
+    <value>Pid:123456
+31/03/18 02:43:55PM
+E.Coli
+10^5 Cells/ml
+Moxifloxacin  ,I
+Cephalexin  ,I
+Ceftazidime  ,I
+Ciprofloxacin  ,I
+Cefixime  ,S
+Cefotaxime  ,S
+Doxycycline  ,S
+Azythromycin  ,S
+Ofloxacin  ,R
+Augmentin  ,R
+Meropenem  ,R
+Nitrofurantoin  ,R
+Polymyxin B  ,R
+Ceftriaxone  ,R
+Gentamicin  ,R
+Levofloxacin  ,R
+Cefoperazone/Sulbactam  ,R
+Ceftizoxime  ,R
+Piperal/Tazobactam  ,R
+Norfloxacine  ,R
+Cefadroxile  ,R
+Co-trimoxazole  ,I
+Amikacin  ,I
+Cefuroxime  ,I
+Cefepime  ,I
+Imipenem  ,I
+Ampicillin- Sulbactum  ,I
+Cefazolin  ,I
+Aztreonam  ,I
+Teicoplanin  ,I
+Prulifloxacin  ,I
+Erythromycin  ,R
+Clindamycin  ,R
+Sparfloxacin  ,R
+Tigecycline  ,R
+Penicillin-G  ,S
+Linezolid  ,S
+Cefalexin  ,S
+Lincomycin  ,S
+Bacitracin  ,S
+Optochin  ,S
+Vancomycin  ,S
+Netilmicin  ,S
 END
+
 </value>
   </data>
 </root>
